@@ -8,7 +8,8 @@
     link VARCHAR(255) UNIQUE NOT NULL,
     data TEXT NOT NULL,
     returned_names TEXT DEFAULT '[]' -- Initialize with an empty array
-); ```
+);
+```
 
 ## project demo can be found here 
 [Here](http://santa.ct.ws/) 
