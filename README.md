@@ -8,6 +8,9 @@
     link VARCHAR(255) UNIQUE NOT NULL,
     data TEXT NOT NULL,
     returned_names TEXT DEFAULT '[]' -- Initialize with an empty array
+    ALTER TABLE data_links
+    ADD COLUMN match_results TEXT DEFAULT '[]';
+
 );
 ```
 
